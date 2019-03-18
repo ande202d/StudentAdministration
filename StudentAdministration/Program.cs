@@ -10,6 +10,10 @@ namespace StudentAdministration
     {
         static void Main(string[] args)
         {
+            Student s1 = new Student("Anders", 1);
+            Console.WriteLine(s1);
+
+            Console.ReadKey();
         }
     }
 }
